@@ -1,0 +1,37 @@
+div {
+  background-color: white;
+  margin: 0 auto; /*center div containter */
+  margin-bottom: 4%;
+  max-width: 640px; /* Set max width of div (can shrink to fit, but won't exceed) */
+  min-height: 140px;
+  border-radius: 15px;
+  border-style: solid;
+  border-width: thin;
+  border-color: Gray;
+}
+
+div h1 {
+  margin-left: 4%;
+}
+
+div p {
+  margin-left: 4%;
+}
+
+div label {
+  display: inline-block;
+  margin: 4%;
+}
+
+div input {
+  margin-left: 4%;
+  margin-bottom: 4%;
+}
+
+div textarea {
+  font-family: Arial;
+  height: 14px;
+  margin-left: 4%;
+  resize: none;
+  overflow: hidden;
+}

@@ -1,20 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>HTML Form </title>
+	<meta charset="UTF-8">
+	<title>HTML Form</title>
+	<link href="style.css" rel="stylesheet">
 </head>
 <body>
-<h3>
-    Form Design Exercise:
-</h3>
-<p style="font-family: Helvetica;font-size: medium">
-    Disregarding the style of the page: <br>
-    <a href="https://forms.gle/qjz8MKR4YXWkWCVLA">https://forms.gle/qjz8MKR4YXWkWCVLA</a>
-</p>
-<p style="font-family: Helvetica;font-size: medium">
-    Try to replicate the format of the form in the page.<br>
-    Make use of "Label", "Input" and "Table".
-</p>
+	<div>
+		<h1>Sample Form</h1>
+		<p>Choose a topic, and research interest for the individual visualization project.</p>
+		<p>masteidel@gmail.com</p>
+		<p style="color:red;">* Required</p>
+	</div>
+
+	<form>
+		<div>
+			<label>Email<span style="color:red;"> *</span></label><br>
+			<input type="text" placeholder="Your Email">
+		</div>
+
+		<div>
+			<label>First Name</label><br>
+			<input type="text" placeholder="First Name">
+		</div>
+
+		<div>
+			<label>Last Name</label><br>
+			<input type="text" placeholder="Last Name">
+		</div>
+
+		<div>
+			<label>Research Interest (list at least 3)<span style="color:red;"> *</span></label><br>
+			<textarea placeholder="Your Answer"></textarea>
+		</div>
+
+		<div>
+			<label>Top Skills<span style="color:red;"> *</span></label><br>
+			<input type="checkbox"> SQL<br>
+			<input type="checkbox"> Python programming<br>
+			<input type="checkbox"> Matlab<br>
+			<input type="checkbox"> D3js and Javascript<br>
+			<input type="checkbox"> C# VB.net<br>
+			<input type="checkbox"> PHP<br>
+			<input type="checkbox"> Node.JS<br>
+			<input type="checkbox"> Web design tools (e.g. Wordpress)<br>
+			<input type="checkbox"> HTML and CSS<br>
+			<input type="checkbox"> Excel<br>
+			<input type="checkbox"> PowerBI<br>
+			<input type="checkbox"> Tableau<br>
+			<input type="checkbox"> Other:
+			<input type="text">
+		</div>
+
+		<div>
+			<label>Suggestions or Questions</label><br>
+			<textarea placeholder="Your Answer"></textarea>
+		</div>
+	</form>
 </body>
 </html>
